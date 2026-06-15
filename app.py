@@ -72,17 +72,3 @@ if st.button("🔊 Generate Speech"):
 
 
 
-
-'''
-from gtts import gTTS
-
-text = "Hello Ajay, welcome to Python."
-
-tts = gTTS(
-    text=text,
-    lang="en"
-)
-
-tts.save("speech.mp3")
-
-'''        
